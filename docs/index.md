@@ -39,7 +39,7 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 ### Random Topology Attack (RTA)
 
 <div align="center">
-    <img src="images/RTA.jpg" width="100%" height ="100%" alt="semi-results.jpg" />
+    <img src="images/RTA.jpg" width="80%" height ="80%" alt="semi-results.jpg" />
 </div>
 <p align = 'center'>
 <small> Test performance comparison for GCN, GAT, and MAGCN on Cora with different levels of random topology attack. </small>
@@ -48,7 +48,7 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 ### Low Label Rates (LLR)
 
 <div align="center">
-    <img src="images/LLR.jpg" width="100%" height ="100%" alt="semi-results.jpg" />
+    <img src="images/LLR.jpg" width="80%" height ="80%" alt="semi-results.jpg" />
 </div>
 <p align = 'center'>
 <small> Test performance comparison for GCN, GAT, and MAGCN on Cora with different low label rates. </small>

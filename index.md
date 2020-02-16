@@ -7,7 +7,7 @@ This repository contains the author's implementation in Tensorflow for the paper
 
 >The structures of MAGCN  
 
-![The structures of MAGCN](https://github.com/ICML2020-submission/MAGCN/images/MAGCN_structure.jpg)
+![The structures of MAGCN](https://github.com/ICML2020-submission/MAGCN/tree/master/images/MAGCN_structure.jpg)
 
 >The visualization of Cora
 

@@ -14,3 +14,11 @@ Q2: How to carry out the neighborhood aggregation or message passing when multi-
 
 In this paper, we propose a novel framework, termed Multiview Graph Convolutional Networks with Attention Mechanism (MAGCN), by incorporating multiple views of topology and attention based feature aggregation strategy into the computation of graph convolution.
 
+<h1 align = "center">Overview</h1>
+
+<div align="center">
+    <img src="images/MAGCN_structure.jpg" width="80%" height ="80%" alt="MAGCN_structure.jpg" />
+</div>
+<p align = 'center'>
+    <small>The overall structure of MAGCN.</small>
+</p>

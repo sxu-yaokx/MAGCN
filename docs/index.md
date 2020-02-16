@@ -6,9 +6,7 @@ Recent advances in graph convolutional networks (GCNs), mainly focusing on how t
 
 <h1 align = "center">Motivation</h1>
 
-Despite that GCN and its variants/extensions have shown their great success on node classification tasks, almost all of these models are developed based on a fixed adjacency matrix given in advance, in other words, a single view graph topology. Inherently, the expressive power of the resulted model may be limited due to the potential information discrepancy between the adjacency matrix and the (unknown) target one.
-
-As such, it is logical to consider two practical questions: 
+Despite that GCN and its variants/extensions have shown their great success on node classification tasks, almost all of these models are developed based on a fixed adjacency matrix given in advance, in other words, a single view graph topology. Inherently, the expressive power of the resulted model may be limited due to the potential information discrepancy between the adjacency matrix and the (unknown) target one. As such, it is logical to consider two practical questions: 
 
 Q1: Is the given topology (adjacency matrix) trustable?
 

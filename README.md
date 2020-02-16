@@ -8,16 +8,16 @@ This repository contains the author's implementation in Tensorflow for the paper
 >The structures of MAGCN  
 
 <div align="center">
-    <img src="images/MAGCN_structure.jpg" width="100%" height ="100%" alt="MAGCN_structure.jpg" />
+    <img src="docs/images/MAGCN_structure.jpg" width="100%" height ="100%" alt="MAGCN_structure.jpg" />
 </div>
 <p align = 'center'>
     <small>The overall structure of MAGCN.</small>
 </p>
 
->The visualization of Cora
+>The visualization results
 
 <div align="center">
-    <img src="images/visualization.jpg" width="100%" height ="100%" alt="visualization.jpg" />
+    <img src="docs/images/visualization.jpg" width="100%" height ="100%" alt="visualization.jpg" />
 </div>
 <p align = 'center'>
 <small> t-SNE visualization for the computed feature representations of a pre-trained model's first hidden layer on the Cora dataset: GCN (left) and our MAGCN (right). Node colors denote classes. </small>

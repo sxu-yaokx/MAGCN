@@ -19,7 +19,7 @@ Q2: How to carry out the neighborhood aggregation or message passing when multi-
 ## <center>Experiment<center>
 
 
-## <center>Visualization<center>
+### <center>Visualization<center>
 >t-SNE visualization for the computed feature representations of a pre-trained model’s first hidden layer on the Cora dataset:
 GCN (left) and our MAGCN (right). Node colors denote classes.
 ![t-SNE visualization.](https://github.com/ICML2020-submission/MAGCN/blob/master/images/visualization.jpg)

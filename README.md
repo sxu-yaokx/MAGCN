@@ -4,15 +4,14 @@ This repository contains the author's implementation in Tensorflow for the paper
 
 
 ## Overview
-
->The structures of MAGCN  
-
+>The overall structure of MAGCN
 ![The structures of MAGCN](https://github.com/ICML2020-submission/MAGCN/blob/master/images/MAGCN_structure.jpg)
 
->The visualization of Cora
 
-![The visualization of Cora](https://github.com/ICML2020-submission/MAGCN/blob/master/images/MAGCN-vis.png)
-
+## Visualization
+>t-SNE visualization for the computed feature representations of a pre-trained model’s first hidden layer on the Cora dataset:
+GCN (left) and our MAGCN (right). Node colors denote classes.
+![t-SNE visualization.](https://github.com/ICML2020-submission/MAGCN/blob/master/images/visualization.jpg)
 
 ## Dependencies
 

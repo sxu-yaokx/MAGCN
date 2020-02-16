@@ -26,7 +26,7 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 <h1 align = "center">Experiments</h1>
 
 <div align="center">
-    <img src="images/semi-results.jpg" width="100%" height ="100%" alt="semi-results.jpg" />
+    <img src="images/semi-results.jpg" width="70%" height ="70%" alt="semi-results.jpg" />
 </div>
 <p align = 'center'>
 <small> Semi-supervised Classification Accuracy (%). </small>

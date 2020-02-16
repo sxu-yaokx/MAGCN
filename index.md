@@ -5,7 +5,7 @@ This repository contains the author's implementation in Tensorflow for the paper
 
 ## Overview
 
->The structures of MAGCN  
+>The overall structure of MAGCN
 
 ![The structures of MAGCN](https://github.com/ICML2020-submission/MAGCN/blob/master/images/MAGCN_structure.jpg)
 

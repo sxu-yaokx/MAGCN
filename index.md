@@ -7,11 +7,11 @@ This repository contains the author's implementation in Tensorflow for the paper
 
 >The structures of MAGCN  
 
-![The structures of MAGCN](https://github.com/ICML2020-submission/MAGCN/blob/master/images/MAGCN.jpg)
+![The structures of MAGCN](https://github.com/ICML2020-submission/MAGCN/images/MAGCN_structure.jpg)
 
 >The visualization of Cora
 
-![The visualization of Cora](https://github.com/ICML2020-submission/MAGCN/blob/master/images/MAGCN-vis.png)
+![The visualization of Cora](https://github.com/ICML2020-submission/MAGCN/images/MAGCN-vis.png)
 
 
 ## Dependencies

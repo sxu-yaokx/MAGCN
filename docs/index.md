@@ -24,7 +24,9 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 </p>
 
 <h1 align = "center">Experiments</h1>
+
 ### Shape Classification on ModelNet40 Benchmark
+
 <div align="center">
     <img src="images/semi-results.jpg" width="70%" height ="70%" alt="semi-results.jpg" />
 </div>

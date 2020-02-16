@@ -22,3 +22,13 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 <p align = 'center'>
     <small>The overall structure of MAGCN.</small>
 </p>
+
+<h1 align = "center">Experiments</h1>
+
+<div align="center">
+    <img src="images/semi-results.jpg" width="100%" height ="100%" alt="semi-results.jpg" />
+</div>
+<p align = 'center'>
+<small> Semi-supervised Classification Accuracy (%). </small>
+</p>
+

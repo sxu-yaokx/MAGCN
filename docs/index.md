@@ -36,6 +36,8 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 
 ## Robustness Analysis.
 
+To further demonstrate the advantage of our proposed method, we test the performance of MAGCN, GCN and GAT when dealing with some uncertainty issues in the node classification tasks. Here we only use Cora dataset, and consider two types of uncertainty issues: random topology attack (RTA) and low label rates (LLR), that can lead to potential perturbations and affect the classification performance.
+
 ### Random Topology Attack (RTA)
 
 <div align="center">

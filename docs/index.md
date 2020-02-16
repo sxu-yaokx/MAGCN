@@ -25,7 +25,7 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 
 <h1 align = "center">Experiments</h1>
 
-## The Semi-Supervised Classification (%) on Cora, Citeseer and Pubmed datasets.
+## Semi-Supervised Classification.
 
 <div align="center">
     <img src="images/semi-results.jpg" width="70%" height ="70%" alt="semi-results.jpg" />

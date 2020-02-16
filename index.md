@@ -1,5 +1,3 @@
-#<center>Multi-View GCNs with Attention Mechanism (MAGCN)<center>
-
 ## <center>Multiview Graph Convolutional Networks with Attention Mechanism<center>
 
 ## <center>Abstract<center>

@@ -25,12 +25,32 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 
 <h1 align = "center">Experiments</h1>
 
-### The Semi-Supervised Classification (%) on Cora, Citeseer and Pubmed datasets.
+## The Semi-Supervised Classification (%) on Cora, Citeseer and Pubmed datasets.
 
 <div align="center">
     <img src="images/semi-results.jpg" width="70%" height ="70%" alt="semi-results.jpg" />
 </div>
 <p align = 'center'>
 <small> Semi-supervised Classification Accuracy (%). </small>
+</p>
+
+## Robustness Analysis.
+
+### Random Topology Attack (RTA)
+
+<div align="center">
+    <img src="images/RTA.jpg" width="100%" height ="100%" alt="semi-results.jpg" />
+</div>
+<p align = 'center'>
+<small> Test performance comparison for GCN, GAT, and MAGCN on Cora with different levels of random topology attack. </small>
+</p>
+
+### Low Label Rates (LLR)
+
+<div align="center">
+    <img src="images/LLR.jpg" width="100%" height ="100%" alt="semi-results.jpg" />
+</div>
+<p align = 'center'>
+<small> Test performance comparison for GCN, GAT, and MAGCN on Cora with different low label rates. </small>
 </p>
 

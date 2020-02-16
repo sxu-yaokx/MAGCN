@@ -39,7 +39,7 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 ### Random Topology Attack (RTA)
 
 <div align="center">
-    <img src="images/RTA.jpg" width="70%" height ="70%" alt="semi-results.jpg" />
+    <img src="images/RTA.jpg" width="70%" height ="70%" alt="RTA.jpg" />
 </div>
 <p align = 'center'>
 <small> Test performance comparison for GCN, GAT, and MAGCN on Cora with different levels of random topology attack. </small>
@@ -48,9 +48,23 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 ### Low Label Rates (LLR)
 
 <div align="center">
-    <img src="images/LLR.jpg" width="70%" height ="70%" alt="semi-results.jpg" />
+    <img src="images/LLR.jpg" width="70%" height ="70%" alt="LLR.jpg" />
 </div>
 <p align = 'center'>
 <small> Test performance comparison for GCN, GAT, and MAGCN on Cora with different low label rates. </small>
 </p>
+
+<h1 align = "center">Visualization and Complexity</h1>
+
+## Visualization
+
+To illustrate the effectiveness of the representations of different methods, a recognized visualization tool t-SNE is utilized. Compared with GCN, the distribution of the nodes representations in a same cluster is more concentrated. Meanwhile, different clusters are more separated.
+
+<div align="center">
+    <img src="images/visualization.jpg" width="100%" height ="100%" alt="visualization.jpg" />
+</div>
+<p align = 'center'>
+<small> t-SNE visualization for the computed feature representations of a pre-trained model's first hidden layer on the Cora dataset: GCN (left) and our MAGCN (right). Node colors denote classes. </small>
+</p>
+
 

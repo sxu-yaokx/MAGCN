@@ -11,3 +11,6 @@ Despite that GCN and its variants/extensions have shown their great success on n
 Q1: Is the given topology (adjacency matrix) trustable?
 
 Q2: How to carry out the neighborhood aggregation or message passing when multi-view topologies of the graph are provided?
+
+In this paper, we propose a novel framework, termed Multiview Graph Convolutional Networks with Attention Mechanism (MAGCN), by incorporating multiple views of topology and attention based feature aggregation strategy into the computation of graph convolution.
+

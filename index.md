@@ -9,7 +9,9 @@ This repository contains the author's implementation in Tensorflow for the paper
 
 
 ## Visualization
-![t-SNE visualization on the Cora dataset of GCN (left) and MAGCN (right).](https://github.com/ICML2020-submission/MAGCN/blob/master/images/visualization.jpg)
+>t-SNE visualization for the computed feature representations of a pre-trained model’s first hidden layer on the Cora dataset:
+GCN (left) and our MAGCN (right). Node colors denote classes.
+![t-SNE visualization.](https://github.com/ICML2020-submission/MAGCN/blob/master/images/visualization.jpg)
 
 ## Dependencies
 

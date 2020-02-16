@@ -7,6 +7,7 @@ Recent advances in graph convolutional networks (GCNs), mainly focusing on how t
 Despite that GCN and its variants/extensions have shown their great success on node classification tasks, almost all of these models are developed based on a fixed adjacency matrix given in advance, in other words, a single view graph topology.
 
 It is logical to consider two practical questions: 
+
 Q1: Is the given topology (adjacency matrix) trustable?
 
 Q2: How to carry out the neighborhood aggregation or message passing when multi-view topologies of the graph are provided?

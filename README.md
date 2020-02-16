@@ -26,8 +26,14 @@ This repository contains the author's implementation in Tensorflow for the paper
 
 ## Dependencies
 
--Python (>=3.5)
+- Python (>=3.5)
 
--Tensorflow (>=1.12.0)
+- Tensorflow (>=1.12.0)
 
--Keras (>=2.0.9)
+- Keras (>=2.0.9)
+
+## Implementation
+
+Here we provide the implementation of a MAGCN layer in TensorFlow, along with a minimal execution example (on the Cora dataset). The repository is organised as follows:
+
+ - `data/` contains the necessary dataset files for Cora;

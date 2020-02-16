@@ -18,6 +18,9 @@ Q2: How to carry out the neighborhood aggregation or message passing when multi-
 
 ## <center>Experiment<center>
 
+### <center>Semi-supervised Classification<Center>
+![The Semi-supervised Classification Results](https://github.com/ICML2020-submission/MAGCN/blob/master/images/semi-results.jpg)
+
 
 ### <center>Visualization<center>
 >t-SNE visualization for the computed feature representations of a pre-trained model’s first hidden layer on the Cora dataset:

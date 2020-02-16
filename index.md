@@ -12,11 +12,14 @@ Q1: Is the given topology (adjacency matrix) trustable?
 
 Q2: How to carry out the neighborhood aggregation or message passing when multi-view topologies of the graph are provided?
 
-## Overview
+## <center>Overview<center>
 >The overall structure of MAGCN
 ![The structures of MAGCN](https://github.com/ICML2020-submission/MAGCN/blob/master/images/MAGCN_structure.jpg)
 
-## Visualization
+## <center>Experiment<center>
+
+
+## <center>Visualization<center>
 >t-SNE visualization for the computed feature representations of a pre-trained model’s first hidden layer on the Cora dataset:
 GCN (left) and our MAGCN (right). Node colors denote classes.
 ![t-SNE visualization.](https://github.com/ICML2020-submission/MAGCN/blob/master/images/visualization.jpg)

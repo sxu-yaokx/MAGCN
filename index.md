@@ -1,4 +1,4 @@
-## Multiview Graph Convolutional Networks with Attention Mechanism
+## <center>Multiview Graph Convolutional Networks with Attention Mechanism<\center>
 
 This repository contains the author's implementation in Tensorflow for the paper "Multiview Graph Convolutional Networks with Attention Mechanism".
 

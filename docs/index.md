@@ -24,12 +24,13 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 
 ## Semi-Supervised Classification.
 
-<div align="center">
-    <img src="images/semi-results.jpg" width="70%" height ="70%" alt="semi-results.jpg" />
-</div>
 <p align = 'center'>
 <small> Semi-supervised Classification Accuracy (%). </small>
 </p>
+
+<div align="center">
+    <img src="images/semi-results.jpg" width="70%" height ="70%" alt="semi-results.jpg" />
+</div>
 
 ## Robustness Analysis.
 

@@ -25,7 +25,7 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 ## Semi-Supervised Classification.
 
 <p align = 'center'>
-<small> *Table 1.* Semi-supervised Classification Accuracy (%). </small>
+<small> _Table 1._ Semi-supervised Classification Accuracy (%). </small>
 </p>
 
 <div align="center">
@@ -42,7 +42,7 @@ To further demonstrate the advantage of our proposed method, we test the perform
     <img src="images/RTA.jpg" width="70%" height ="70%" alt="RTA.jpg" />
 </div>
 <p align = 'center'>
-<small> *Figure 2.* Test performance comparison for GCN, GAT, and MAGCN on Cora with different levels of random topology attack. </small>
+<small> _Figure 2._ Test performance comparison for GCN, GAT, and MAGCN on Cora with different levels of random topology attack. </small>
 </p>
 
 ### Low Label Rates (LLR)
@@ -51,7 +51,7 @@ To further demonstrate the advantage of our proposed method, we test the perform
     <img src="images/LLR.jpg" width="70%" height ="70%" alt="LLR.jpg" />
 </div>
 <p align = 'center'>
-<small> *Figure 3.* Test performance comparison for GCN, GAT, and MAGCN on Cora with different low label rates. </small>
+<small> _Figure 3._ Test performance comparison for GCN, GAT, and MAGCN on Cora with different low label rates. </small>
 </p>
 
 <h1 align = "center">Visualization and Complexity</h1>
@@ -64,7 +64,7 @@ To illustrate the effectiveness of the representations of different methods, a r
     <img src="images/visualization.jpg" width="100%" height ="100%" alt="visualization.jpg" />
 </div>
 <p align = 'center'>
-<small> *Figure 4.* t-SNE visualization for the computed feature representations of a pre-trained model's first hidden layer on the Cora dataset: GCN (left) and our MAGCN (right). Node colors denote classes. </small>
+<small> _Figure 4._ t-SNE visualization for the computed feature representations of a pre-trained model's first hidden layer on the Cora dataset: GCN (left) and our MAGCN (right). Node colors denote classes. </small>
 </p>
 
 ## Complexity

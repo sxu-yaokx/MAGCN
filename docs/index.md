@@ -20,7 +20,7 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
     <img src="images/MAGCN_structure.jpg" width="100%" height ="100%" alt="MAGCN_structure.jpg" />
 </div>
 <p align = 'center'>
-    <small>The overall structure of MAGCN.</small>
+    <small>The overall structure of our MAGCN. The multi-view graph $G^{*}$ with 5 nodes, $n$ topologies and a feature matrix $X \in \mathbb{R}^{5 \times M}$, is first expressed by the multi-GCN (unfold) block to obtain a multiview representation $\mathcal{X} = \{\hat{X}_{1}, \hat{X}_{2}, \cdots, \hat{X}_{n}\} \in \mathbb{R}^{n \times 5 \times F}$ . Then a multiview attention is utilized to fuse the $\mathcal{X}$ to a complete representation $\bar{X} \in \mathbb{R}^{5 \times F}$. Finally, a multi-GCN (merge) block with softmax is introduced to obtain the final classification expressing matrix $X^{*} \in \mathbb{R}^{5 \times C}$.</small>
 </p>
 
 <h1 align = "center">Experiments</h1>

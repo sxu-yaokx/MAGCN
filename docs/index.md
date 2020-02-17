@@ -25,7 +25,7 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 ## Semi-Supervised Classification.
 
 <p align = 'center'>
-<small> Semi-supervised Classification Accuracy (%). </small>
+<small> Table 1. Semi-supervised Classification Accuracy (%). </small>
 </p>
 
 <div align="center">

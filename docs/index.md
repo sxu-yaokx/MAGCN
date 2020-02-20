@@ -71,9 +71,9 @@ To illustrate the effectiveness of the representations of different methods, a r
 
 - **GCN** [1]: <img src="images/maths/GCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|E|FC)" />
 - **GAT** [2]: <img src="images/maths/GAT-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|V|FC + |E|C)" />
-- **MAGCN**: <img src="images/mths/MAGCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(n|E|FC + KC)" />
+- **MAGCN**: <img src="images/maths/MAGCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(n|E|FC + KC)" />
 
-<p>Where  |_V_| and |_E_| are the numbers of nodes and edges in the graph, respectively. Although the introduction of multiple views multiplies the storage and parameter requirements by a factor of $n$ compared with GCN, while the individual views’ computations are fully independent and can be parallelized. Overall, the computational complexity is on par with the baseline methods GCN and GAT.</p>
+<p>Where  |*V*| and |_E_| are the numbers of nodes and edges in the graph, respectively. Although the introduction of multiple views multiplies the storage and parameter requirements by a factor of $n$ compared with GCN, while the individual views’ computations are fully independent and can be parallelized. Overall, the computational complexity is on par with the baseline methods GCN and GAT.</p>
 
 <h1 align = "center">Conclusion</h1>
 

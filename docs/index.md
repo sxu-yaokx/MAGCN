@@ -69,7 +69,7 @@ To illustrate the effectiveness of the representations of different methods, a r
 
 ## Complexity
 
-- **GCN** [1]: <img src="imges/maths/GCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|E|FC)" />
+- **GCN** [1]: <img src="images/maths/GCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|E|FC)" />
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{O}(|E|FC)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{O}(|E|FC)" title="\mathcal{O}(|E|FC)" /></a>;
 

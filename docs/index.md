@@ -69,7 +69,9 @@ To illustrate the effectiveness of the representations of different methods, a r
 
 ## Complexity
 
-<p>For a single layer of graph convolutional network (GCN) \cite{KiWe2017}, with a $F$-dimensional input feature and a $C$-dimensional output feature, the time complexity is ![](http://latex.codecogs.com/gif.latex?\\\mathcal{O}(|E|FC))
+<p>For a single layer of graph convolutional network (GCN) \cite{KiWe2017}, with a $F$-dimensional input feature and a $C$-dimensional output feature, the time complexity is ![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
+
+![](http://latex.codecogs.com/gif.latex?\\mathcal{O}(|E|FC))
 
 
 \mathcal{O}(|E|FC)\) where $E$ is the set of edges in graph. The time complexity of a single graph attention network (GAT) \cite{velickovic2018graph} is $\mathcal{O}(|V|FC + |E|C)$ where $V$ denotes the set of nodes in graph. Likewise, for a layer with $F$-dimensional input and $C$-dimensional output of the proposed MAGCN, the complexity is $\mathcal{O}(n|E|FC + KC)$, where $n$ is the number of the views, $\mathcal{O}(KC)$ is the cost of computing multi-view attention and $K$ denotes the neuron number of multilayer perceptron (MLP) in multi-view attention bock. Although the introduction of multiple views multiplies the storage and parameter requirements by a factor of $n$ compared with GCN, while the individual views’ computations are fully independent and can be parallelized. Overall, the computational complexity is on par with the baseline methods GCN and GAT.</p>

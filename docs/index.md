@@ -79,12 +79,11 @@ Where V and E are the sets of nodes and edges in the graph, respectively. F and 
 
 In the real-world graph-structured data, nodes have various roles or characteristics, and they have different types of correlations. Multiview graph learning/representation is of great importance in various domains. Here, we will provide a gentle introduction of possible applications of our proposed MAGCN (or its potential variants in both architecture/algorithm level). 
 
+### Neuroimage Analysis for Parkinson’s Disease
+
+### Urban computing
 
 <h1 align = "center">Conclusion</h1>
 
 We propose in this paper a novel graph convolutional network model called MAGCN, allowing us to aggregate node features from different hops of neighbors using multi-view topology of the graph and attention mechanism. Theoretical analysis on the expressive power and flexibility is provided with rigorous mathematical proofs, showing a good potential of MAGCN over vanilla GCN model in producing a better node-level learning representation. Experimental results demonstrate that it yields results superior to the state of the art on the node classification task. Our work paves a way towards exploiting different adjacency matrices representing distinguished graph structure to build graph convolution.
 
-### Neuroimage Analysis for Parkinson’s Disease
-
-
-### Urban computing

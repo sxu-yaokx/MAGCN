@@ -75,6 +75,11 @@ To illustrate the effectiveness of the representations of different methods, a r
 
 Where V and E are the sets of nodes and edges in the graph, respectively. F and C denote the dimensions of the input feature and output feature of a single layer. n denotes the number of the views, <img src="images/maths/Attention-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(KC)" /> is the cost of computing multi-view attention and K denotes the neuron number of multilayer perceptron (MLP) in multi-view attention bock. Although the introduction of multiple views multiplies the storage and parameter requirements by a factor of n compared with GCN, while the individual views’ computations are fully independent and can be parallelized. Overall, the computational complexity is on par with the baseline methods GCN and GAT.
 
+<h1 align = "center">Applications</h1>
+
+In the real-world graph-structured data, nodes have various roles or characteristics, and they have different types of correlations. Multiview graph learning/representation is of great importance in various domains. Here, we will provide a gentle introduction of possible applications of our proposed MAGCN (or its potential variants in both architecture/algorithm level). 
+
+
 <h1 align = "center">Conclusion</h1>
 
 We propose in this paper a novel graph convolutional network model called MAGCN, allowing us to aggregate node features from different hops of neighbors using multi-view topology of the graph and attention mechanism. Theoretical analysis on the expressive power and flexibility is provided with rigorous mathematical proofs, showing a good potential of MAGCN over vanilla GCN model in producing a better node-level learning representation. Experimental results demonstrate that it yields results superior to the state of the art on the node classification task. Our work paves a way towards exploiting different adjacency matrices representing distinguished graph structure to build graph convolution.

@@ -81,6 +81,10 @@ In the real-world graph-structured data, nodes have various roles or characteris
 
 ### Neuroimage Analysis for Parkinson’s Disease
 
+Parkinson’s Disease (PD) is one of the most prevalent neurodegenerative diseases, which occur when nerve cells in the brain or peripheral nervous system lose function over time and ultimately die. PD affects predominately dopaminergic neurons in substantia nigra, which is a specific area of the brain. 
+
+Recent years, quite a few computational studies have been conducted on the Parkinson’s Progression Markers Initiative (PPMI) data. An important part but under-utilized part of PPMI is its rich neuroimaging information, which includes Magnetic Resonance Imaging (MRI), functional MRI, Diffusion Tensor Imaging (DTI), CT scans, etc. 
+
 ### Urban computing
 
 <h1 align = "center">Conclusion</h1>

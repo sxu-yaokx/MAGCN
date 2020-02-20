@@ -95,8 +95,10 @@ Recent years, quite a few computational studies have been conducted on the Parki
 ### Urban computing
 
 The deployment of urban sensor networks is one of the most important progresses in urban digitization process. Recent advances
-in sensor technology enables the collection of a large variety of datasets. Multi-modality is one of the most significant features in
-knowledge discovery process in urban computing. Region-level prediction is a fundamental task in data-driven urban management. There are rich amount of topics, including citizen flow prediction, traffic demand prediction, arrival time estimation and meteorology forecasting. Non-euclidean structures exist in station-based prediction tasks, including bike-flow prediction, traffic volume prediction and point-based taxi demand prediction.
+in sensor technology enables the collection of a large variety of datasets. Region-level prediction is a fundamental task in data-driven urban management. There are rich amount of topics, including citizen flow prediction, traffic demand prediction, arrival time estimation and meteorology forecasting. Non-euclidean structures exist in station-based prediction tasks, including bike-flow prediction, traffic volume prediction and point-based taxi demand prediction. 
+
+The core issue for multi-modal machine learning is to build models that can process or relate information from multiple modalities, while multi-modal fusion is one of the most challenging problems in urban computing. Most existing works incorporate multi-modality
+auxiliary data as handcrafted features in a straightforward manner, which is imposible to make full use of the multi-modal features. However, our MAGCN can handle this multi-view situation easily.
 
 <div align="center">
     <img src="images/urban.jpg" width="100%" height ="100%" alt="urban.jpg" />

@@ -94,6 +94,10 @@ Recent years, quite a few computational studies have been conducted on the Parki
 
 ### Urban computing
 
+The deployment of urban sensor networks is one of the most important progresses in urban digitization process. Recent advances
+in sensor technology enables the collection of a large variety of datasets. Multi-modality is one of the most significant features in
+knowledge discovery process in urban computing. Region-level prediction is a fundamental task in data-driven urban management. There are rich amount of topics, including citizen flow prediction, traffic demand prediction, arrival time estimation and meteorology forecasting. Non-euclidean structures exist in station-based prediction tasks, including bike-flow prediction, traffic volume prediction and point-based taxi demand prediction.
+
 <h1 align = "center">Conclusion</h1>
 
 We propose in this paper a novel graph convolutional network model called MAGCN, allowing us to aggregate node features from different hops of neighbors using multi-view topology of the graph and attention mechanism. Theoretical analysis on the expressive power and flexibility is provided with rigorous mathematical proofs, showing a good potential of MAGCN over vanilla GCN model in producing a better node-level learning representation. Experimental results demonstrate that it yields results superior to the state of the art on the node classification task. Our work paves a way towards exploiting different adjacency matrices representing distinguished graph structure to build graph convolution.

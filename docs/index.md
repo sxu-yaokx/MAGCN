@@ -69,11 +69,11 @@ To illustrate the effectiveness of the representations of different methods, a r
 
 ## Complexity
 
-- **GCN** [1]: <img src="images/maths/GCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|E|FC)" />
+- **GCN** [(Kipf & Welling, 2017)(https://arxiv.org/abs/1609.02907)]: <img src="images/maths/GCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|E|FC)" />
 - **GAT** [2]: <img src="images/maths/GAT-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|V|FC + |E|C)" />
 - **MAGCN**: <img src="images/maths/MAGCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(n|E|FC + KC)" />
 
-Where V and E are the sets of nodes and edges in the graph, respectively. F and C denote the dimensions of the input feature and output feature of a single layer. n denotes the number of the views, <img src="images/maths/Attention-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(KC)" /> is the cost of computing multi-view attention and K denotes the neuron number of multilayer perceptron (MLP) in multi-view attention bock. Although the introduction of multiple views multiplies the storage and parameter requirements by a factor of n compared with GCN, while the individual views’ computations are fully independent and can be parallelized. Overall, the computational complexity is on par with the baseline methods GCN and GAT.
+where |V| and |E| are the number of nodes and edges in the graph, respectively. F and C denote the dimensions of the input feature and output feature of a single layer. n denotes the number of the views, <img src="images/maths/Attention-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(KC)" /> is the cost of computing multi-view attention and K denotes the neuron number of multilayer perceptron (MLP) in multi-view attention block. Although the introduction of multiple views multiplies the storage and parameter requirements by a factor of n compared with GCN, while the individual views’ computations are fully independent and can be parallelized. Overall, the computational complexity is on par with the baseline methods GCN and GAT.
 
 <h1 align = "center">Applications</h1>
 
@@ -83,7 +83,7 @@ In the real-world graph-structured data, nodes have various roles or characteris
 
 Parkinson’s Disease (PD) is one of the most prevalent neurodegenerative diseases, which occur when nerve cells in the brain or peripheral nervous system lose function over time and ultimately die. PD affects predominately dopaminergic neurons in substantia nigra, which is a specific area of the brain. 
 
-Recent years, quite a few computational studies have been conducted on the Parkinson’s Progression Markers Initiative (PPMI) data. An important part but under-utilized part of PPMI is its rich neuroimaging information, which includes Magnetic Resonance Imaging (MRI), functional MRI, Diffusion Tensor Imaging (DTI), CT scans, etc. The structural MRI brain images of each acquisition is a set of Region-of-Interests (ROIs). Each region is treated as a node on a Brain Geometry Graph (BGG), which is undirected and weighted. Further, a time series MRI scans could construct multiple BGGs, which changes into a multi-view type (as shown in Figure 5.). Thus, the Parkinson’s Disease could be elegantly solved by the neuroimage analysis based on our multi-view model MAGCN.
+Recent years, quite a few computational studies have been conducted on the Parkinson’s Progression Markers Initiative (PPMI) data. An important part but under-utilized part of PPMI is its rich neuroimaging information, which includes Magnetic Resonance Imaging (MRI), functional MRI, Diffusion Tensor Imaging (DTI), CT scans, etc. The structural MRI brain images of each acquisition is a set of Region-of-Interests (ROIs). Each region is treated as a node on a Brain Geometry Graph (BGG), which is undirected and weighted. Further, a time series MRI scans could construct multiple BGGs, which changes into a multi-view type (as shown in Figure 5.). Once we formulate multiple BGGs based PD recognition as a multi-view graph learning/representation task, our proposed MAGCN framework has a good potential for problem-solving.
 
 <div align="center">
     <img src="images/BGG-MRI.jpg" width="100%" height ="100%" alt="BGG-MRI.jpg" />
@@ -95,10 +95,10 @@ Recent years, quite a few computational studies have been conducted on the Parki
 ### Urban computing
 
 The deployment of urban sensor networks is one of the most important progresses in urban digitization process. Recent advances
-in sensor technology enables the collection of a large variety of datasets. Region-level prediction is a fundamental task in data-driven urban management. There are rich amount of topics, including citizen flow prediction, traffic demand prediction, arrival time estimation and meteorology forecasting. Non-euclidean structures exist in station-based prediction tasks, including bike-flow prediction, traffic volume prediction and point-based taxi demand prediction. 
+in sensor technology enables the collection of a large variety of datasets. Region-level prediction is a fundamental task in data-driven urban management. There are rich number of topics, including citizen flow prediction, traffic demand prediction, arrival time estimation and meteorology forecasting. Non-Euclidean structures exist in station-based prediction tasks, including bike-flow prediction, traffic volume prediction and point-based taxi demand prediction. 
 
 The core issue for multi-modal machine learning is to build models that can process or relate information from multiple modalities, while multi-modal fusion is one of the most challenging problems in urban computing. Most existing works incorporate multi-modality
-auxiliary data as handcrafted features in a straightforward manner, which is imposible to make full use of the multi-modal features. However, our MAGCN can handle this multi-view situation easily.
+auxiliary data as handcrafted features in a straightforward manner, which is impossible to make full use of the multi-modal features. MAGCN and its future variants like Relational MAGCN, Multi-modal MAGCN, or Spatiotemporal MAGCN, etc., can provide an effective and favorable way to encode non-Euclidean pair-wise correlations among regions into multiple graphs (as shown in Figure 6) and then explicitly model these correlations using multi-graph convolution, which is technically significant for some region-level demand forecasting in unban computing.
 
 <div align="center">
     <img src="images/urban.jpg" width="100%" height ="100%" alt="urban.jpg" />

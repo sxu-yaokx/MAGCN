@@ -69,7 +69,7 @@ To illustrate the effectiveness of the representations of different methods, a r
 
 ## Complexity
 
-- **GCN** [(Kipf & Welling, 2017)(https://arxiv.org/abs/1904.07601)]: <img src="images/maths/GCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|E|FC)" />
+- **GCN** [(Kipf & Welling, 2017)](https://arxiv.org/abs/1904.07601): <img src="images/maths/GCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|E|FC)" />
 - **GAT** [2]: <img src="images/maths/GAT-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|V|FC + |E|C)" />
 - **MAGCN**: <img src="images/maths/MAGCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(n|E|FC + KC)" />
 

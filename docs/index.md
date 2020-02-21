@@ -69,8 +69,8 @@ To illustrate the effectiveness of the representations of different methods, a r
 
 ## Complexity
 
-- **GCN** [(Kipf & Welling, 2017)](https://arxiv.org/abs/1904.07601): <img src="images/maths/GCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|E|FC)" />
-- **GAT** [2]: <img src="images/maths/GAT-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|V|FC + |E|C)" />
+- **GCN** [(Kipf & Welling, 2017)](https://arxiv.org/abs/1609.02907): <img src="images/maths/GCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|E|FC)" />
+- **GAT** [(Veli{\v{c}}kovi{\'c} et al., 2018)](https://arxiv.org/abs/1710.10903): <img src="images/maths/GAT-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(|V|FC + |E|C)" />
 - **MAGCN**: <img src="images/maths/MAGCN-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(n|E|FC + KC)" />
 
 where |V| and |E| are the number of nodes and edges in the graph, respectively. F and C denote the dimensions of the input feature and output feature of a single layer. n denotes the number of the views, <img src="images/maths/Attention-complexity.jpg" align="center" border="0" weight="24" height="16" alt="\mathcal{O}(KC)" /> is the cost of computing multi-view attention and K denotes the neuron number of multilayer perceptron (MLP) in multi-view attention block. Although the introduction of multiple views multiplies the storage and parameter requirements by a factor of n compared with GCN, while the individual views’ computations are fully independent and can be parallelized. Overall, the computational complexity is on par with the baseline methods GCN and GAT.

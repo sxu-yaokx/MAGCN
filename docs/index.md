@@ -19,6 +19,9 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
 <div align="center">
     <img src="images/MAGCN_structure.jpg" width="100%" height ="100%" alt="MAGCN.jpg" />
 </div>
+<p align = 'center'>
+<small> Figure 1. The overall structure of our MAGCN. </small>
+</p>
 
 To better understand the proposed model, we provide a summary of the algorithm flow:
 

@@ -24,6 +24,8 @@ To better understand the proposed model, we provide a summary of the algorithm f
 
 - **Multi-GCN (unfold)**: The multi-view graph <img src="images/maths/G1.jpg" align="center" border="0" weight="24" height="16" alt="G*" /> with 5 nodes, n topologies and a feature matrix <img src="images/maths/X.jpg" align="center" border="0" weight="24" height="16" alt="X" />, is first expressed by the multi-GCN (unfold) block to obtain a multiview representation <img src="images/maths/tensorX.jpg" align="center" border="0" weight="24" height="16" alt="TensorX" />.
 
+- **Multiview Attention**: Then a multiview attention is utilized to fuse the <img src="images/maths/X2.jpg" align="center" border="0" weight="24" height="16" alt="X2" /> to a complete representation <img src="images/maths/X3.jpg" align="center" border="0" weight="24" height="16" alt="X3" />.
+
 <h1 align = "center">Experiments</h1>
 
 ## Semi-Supervised Classification.

@@ -20,6 +20,10 @@ In this paper, we propose a novel framework, termed Multiview Graph Convolutiona
     <img src="images/MAGCN-caption.jpg" width="100%" height ="100%" alt="MAGCN-caption.jpg" />
 </div>
 
+To better understand the proposed model, we provide a summary of the algorithm flow:
+
+- **Multi-GCN (unfold)**: The multi-view graph <img src="images/maths/G1.jpg" align="center" border="0" weight="24" height="16" alt="G*" /> with 5 nodes, n topologies and a feature matrix <img src="images/maths/X.jpg" align="center" border="0" weight="24" height="16" alt="X" />, is first expressed by the multi-GCN (unfold) block to obtain a multiview representation <img src="images/maths/TensorX.jpg" align="center" border="0" weight="24" height="16" alt="TensorX" />.
+
 <h1 align = "center">Experiments</h1>
 
 ## Semi-Supervised Classification.

@@ -4,7 +4,7 @@
     <a href="https://github.com/sxu-yaokx" style="font-size: 23px">Kaixuan Yao</a> &emsp;
     <a href="https://scholar.google.com/citations?user=iGc61hUAAAAJ&hl=da" style="font-size: 23px">Jiye Liang</a> &emsp;
     <a href="https://scholar.google.com/citations?user=4mUaJpEAAAAJ&hl=zh-CN" style="font-size: 23px">Jianqing Liang</a>  &emsp;
-    <a href="https://scholar.google.com/citations?user=Z7yEoOQAAAAJ&hl=zh-CN" style=font-size: 23px">Ming Li</a>  &emsp;
+    <a href="https://scholar.google.com/citations?user=Z7yEoOQAAAAJ&hl=zh-CN" style="font-size: 23px">Ming Li</a>  &emsp;
     <a href="https://scholar.google.com/citations?user=KFUjv40AAAAJ&hl=zh-CN" style="font-size: 23px">Feilong Cao</a>
 </p>
 

@@ -98,18 +98,6 @@ where <img src="images/maths/V.jpg" align="center" border="0" weight="24" height
 
 In the real-world graph-structured data, nodes have various roles or characteristics, and they have different types of correlations. Multiview graph learning/representation is of great importance in various domains. Here, we will provide a gentle introduction of possible applications of our proposed MAGCN (or its potential variants in both architecture/algorithm level). 
 
-### Neuroimage Analysis for Parkinson’s Disease
-
-Parkinson’s Disease (PD) is one of the most prevalent neurodegenerative diseases, which occur when nerve cells in the brain or peripheral nervous system lose function over time and ultimately die. PD affects predominately dopaminergic neurons in substantia nigra, which is a specific area of the brain. 
-
-Recent years, quite a few computational studies have been conducted on the Parkinson’s Progression Markers Initiative (PPMI) data. An important part but under-utilized part of PPMI is its rich neuroimaging information, which includes Magnetic Resonance Imaging (MRI), functional MRI, Diffusion Tensor Imaging (DTI), CT scans, etc. The structural MRI brain images of each acquisition is a set of Region-of-Interests (ROIs). Each region is treated as a node on a Brain Geometry Graph (BGG), which is undirected and weighted. Further, a time series MRI scans could construct multiple BGGs, which changes into a multi-view type (as shown in Figure 5.). Once we formulate multiple BGGs based PD recognition as a multi-view graph learning/representation task, our proposed MAGCN framework has a good potential for problem-solving.
-
-<div align="center">
-    <img src="images/BGG-MRI.jpg" width="100%" height ="100%" alt="BGG-MRI.jpg" />
-</div>
-<p align = 'center'>
-<small> Figure 5. Multi-view BGGs constructed from time series MRIs scans. </small>
-</p>
 
 ### Urban computing
 

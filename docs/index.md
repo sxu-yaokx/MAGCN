@@ -99,22 +99,24 @@ where <img src="images/maths/V.jpg" align="center" border="0" weight="24" height
 In the real-world graph-structured data, nodes have various roles or characteristics, and they have different types of correlations. Multiview graph learning/representation is of great importance in various domains. Here, we will provide a gentle introduction of possible applications of our proposed MAGCN (or its potential variants in both architecture/algorithm level). 
 
 
-### Urban computing
-
-The deployment of urban sensor networks is one of the most important progresses in urban digitization process. Recent advances
-in sensor technology enables the collection of a large variety of datasets. Region-level prediction is a fundamental task in data-driven urban management. There are rich number of topics, including citizen flow prediction, traffic demand prediction, arrival time estimation and meteorology forecasting. Non-Euclidean structures exist in station-based prediction tasks, including bike-flow prediction, traffic volume prediction and point-based taxi demand prediction. 
-
-The core issue for multi-modal machine learning is to build models that can process or relate information from multiple modalities, while multi-modal fusion is one of the most challenging problems in urban computing. Most existing works incorporate multi-modality
-auxiliary data as handcrafted features in a straightforward manner, which is impossible to make full use of the multi-modal features. MAGCN and its future variants like Relational MAGCN, Multi-modal MAGCN, or Spatiotemporal MAGCN, etc., can provide an effective and favorable way to encode non-Euclidean pair-wise correlations among regions into multiple graphs (as shown in Figure 6) and then explicitly model these correlations using multi-graph convolution, which is technically significant for some region-level demand forecasting in unban computing.
-
-<div align="center">
-    <img src="images/urban.jpg" width="100%" height ="100%" alt="urban.jpg" />
-</div>
-<p align = 'center'>
-<small> Figure 6. Different aspects of relationships among regions and the corresponding multi-view graph. </small>
-</p>
-
 <h1 align = "center">Conclusion</h1>
 
 We propose in this paper a novel graph convolutional network model called MAGCN, allowing us to aggregate node features from different hops of neighbors using multi-view topology of the graph and attention mechanism. Theoretical analysis on the expressive power and flexibility is provided with rigorous mathematical proofs, showing a good potential of MAGCN over vanilla GCN model in producing a better node-level learning representation. Experimental results demonstrate that it yields results superior to the state of the art on the node classification task. Our work paves a way towards exploiting different adjacency matrices representing distinguished graph structure to build graph convolution.
+
+
+<h1 align = "center">Citation</h1>
+
+If you make advantage of the MAGCN model in your research, please cite the following in your manuscript:
+
+```
+@article{
+  yaokx2022MAGCN,
+  title="{Multi-View Graph Convolutional Networks with Attention Mechanism}",
+  author={Yao, Kaixuan and Liang, Jiye and Liang, Jianqing and Li, Ming and Cao, Feilong},
+  journal={Artificial Intelligience},
+  year={2022},
+  pages={103708},
+  url={https://doi.org/10.1016/j.artint.2022.103708},
+  }
+```
 
